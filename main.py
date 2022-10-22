@@ -3,7 +3,7 @@ import telebot
 import os
 from util.bot import bot
 
-commands = []
+commands = [] 
 
 for root, dirs, files in os.walk("./commands/"):
     for filename in files:
